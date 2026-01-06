@@ -1,0 +1,73 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+.Spotlight-V100
+.Trashes
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.log
+
+# DBeaver
+.DBeaverData/
+.metadata/
+*.bak_*.log
+
+# Docker
+.dockerenv
+.dockerinit
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+log/
+
+# Database
+*.db
+*.db3
+*.sqlite
+*.sqlite3
+
+# Backup
+*.bak
+*.backup
+*.sql.bak
+
+# Config (if contain sensitive data)
+config/
+*.config
+
+# Parquet temporary files
+*.tmp.parquet
+.parquet.tmp
+
+# Secrets
+secrets/
+*.key
+*.pem
+*.crt
+*.cert
+*.secret
